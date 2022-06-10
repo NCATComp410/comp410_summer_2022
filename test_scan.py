@@ -6,7 +6,7 @@ class ScanTests(unittest.TestCase):
     def test_aggie_pride(self):
         slogans = show_aggie_pride()
 
-        self.assertIn('Aggie Pride - Worldwide', slogans)
+        self.assertIn('It is what it is ', slogans)
 
 
 if __name__ == '__main__':
