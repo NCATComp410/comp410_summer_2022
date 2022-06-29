@@ -195,7 +195,7 @@ class ScanTests(unittest.TestCase):
         # Make sure the file is there
         self.assertIn('There is sample PII here', pii_text)
 
-    
+
     def test_sprint2_t1_xslx(self):
         # Full path to the sample document.
         no_pii = 'files/Documents/Team 1 Documents/Sprint2_Team1_xlsx_no_pii.xlsx'
@@ -295,7 +295,7 @@ class ScanTests(unittest.TestCase):
             xlsx_pii_text = get_file_text(xlsx_pii)
             # make sure the content is there
             self.assertIn('Jaden ', xlsx_pii_text)
-            
+
     def test_sprint2_t2_docx(self):
         # full path to the sample document
         no_pii = 'files/Documents/Team2 Documents/sprint2_team2_docx_no_pii.docx'
